@@ -52,10 +52,73 @@ class: inverse, center, middle
 
 ---
 
-# Background
+## Background
+#### HCMC faces **the compounding hazards of land subsidence and flooding**.
 
-### Ho Chi Minh City
+.pull-left[
+### Land Subsidence
+- Most populous city in Vietnam + Rapid urbanization
 
+- Massive groundwater extraction 
+
+- Compacting the soft delta soil
+
+- **One of the most fastest-sinking cities in the world**
+
+>具体数据
+]
+
+.pull-right[
+### Flooding
+- 65% of the city is less than 1.5 m above mean sea level (Vachaud et al., 2019)
+
+- Sea level rising
+
+- Extreme monsoon rains
+
+- **One of the most vulnerable cities to flooding**, especially for SLR–induced flooding (IPCC, 2019)
+
+]
+
+---
+
+### The Vicious Cycle
+.pull-left[
+- Sinking ground + Sea-level rise = Relative Sea-Level Rise (RSLR)
+
+- Sinking terrain turns neighborhoods into permanent water sinks and breaks underground drainage pipes.
+
+- **Results:** Floods become deeper, last longer, and are geometrically harder to drain.
+
+- Solving the flood crisis requires managing both the **water** and the **sinking ground**.
+]
+
+.pull-right[
+```{r echo=FALSE, out.width='90%', fig.align='top, right'}
+knitr::include_graphics('images/vicious.png')
+```
+<p style="font-size: 12px; color: black; margin-top: 0px; text-align: center;">
+  Impacts of land subsidence on flooding phenomena. Source: Abidin et al., (2015)
+</p>
+]
+
+---
+
+## Problem Statement
+
+### Static Topography in a Sinking City 
+
+The current Flood Risk Management Project is fundamentally built on **static Digital Elevation Models (DEM)**. It assumes the ground is stable. However, Ho Chi Minh City keeps sinking.
+
+ - **EWS Failure**: Flood forecasting models will predict safety based on outdated elevations, failing to trigger alerts even when sunken areas are already flooding.
+
+ - **Wasted Infrastructure**: Expensive dams and gates will sink with the city, quickly failing and wasting investments.
+
+### Institutional Silos
+
+- SCFC manages flooding (surface water).
+- DONRE manages land subsidence (groundwater).
+- **No shared dynamic platform** exists to calculate compounding risks.
 ---
 
 class: inverse, center, middle
@@ -67,3 +130,9 @@ class: inverse, center, middle
 class: inverse, center, middle
 
 # Project plan, risks and value for money
+
+---
+
+# Reference
+
+- 
