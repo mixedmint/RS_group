@@ -65,7 +65,7 @@ class: inverse, center, middle
 
 - **One of the most fastest-sinking cities in the world**
 
->具体数据
+>HCMC has sunk **~1 meter** since 1990, with current rates at **2-5 cm/year** (JICA), peaking at **7-8 cm/year** in commercial hubs [(SGGP, 2025)](https://en.sggp.org.vn/reasons-behind-hcmcs-accelerated-land-subsidence-revealed-post121758.html).
 ]
 
 .pull-right[
@@ -94,7 +94,7 @@ class: inverse, center, middle
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width='90%', fig.align='top, right'}
+```{r echo=FALSE, out.width='90%', fig.align='center'}
 knitr::include_graphics('images/vicious.png')
 ```
 <p style="font-size: 12px; color: black; margin-top: 0px; text-align: center;">
@@ -106,19 +106,37 @@ knitr::include_graphics('images/vicious.png')
 
 ## Problem Statement
 
-### Static Topography in a Sinking City 
+.pull-left[
+### Technical Blind Spot
 
-The current Flood Risk Management Project is fundamentally built on **static Digital Elevation Models (DEM)**. It assumes the ground is stable. However, Ho Chi Minh City keeps sinking.
+The current Flood Risk Management Project relies on **static elevation models**, ignoring dynamic ground sinking.
 
- - **EWS Failure**: Flood forecasting models will predict safety based on outdated elevations, failing to trigger alerts even when sunken areas are already flooding.
-
- - **Wasted Infrastructure**: Expensive dams and gates will sink with the city, quickly failing and wasting investments.
+ - Early warning system failure
+ - Wasted infrastructure
 
 ### Institutional Silos
 
 - SCFC manages flooding (surface water).
 - DONRE manages land subsidence (groundwater).
 - **No shared dynamic platform** exists to calculate compounding risks.
+]
+
+.pull-right[
+### Socio-Economic Impact
+
+- Localized fixes (e.g., raising streets) ignore city-wide impacts (Cao et al., 2021).
+- Displacing floodwater directly into less-protected, poorer communities.
+- **Economic damage hits the poorest.**
+
+```{r echo=FALSE, out.width='65%', fig.align='center'}
+knitr::include_graphics('images/rised_road.png')
+```
+<p style="font-size: 12px; color: black; margin-top: 0px; text-align: center;">
+  Raised road covers the entrance of a house and turns it into cave. 
+  
+  Source: Cao et al., (2021)
+</p>
+]
 ---
 
 class: inverse, center, middle
@@ -135,4 +153,11 @@ class: inverse, center, middle
 
 # Reference
 
-- 
+- Vachaud, G. et al. (2019) ‘Flood-related risks in Ho Chi Minh City and ways of mitigation’, Journal of Hydrology, 573, pp. 1021–1027. https://doi.org/10.1016/j.jhydrol.2018.02.044.
+
+- Intergovernmental Panel on Climate Change (IPCC) (ed.) (2022) ‘Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities’, The Ocean and Cryosphere in a Changing Climate: Special Report of the Intergovernmental Panel on Climate Change. Cambridge: Cambridge University Press, pp. 321–446. https://doi.org/10.1017/9781009157964.006.
+
+- Abidin, H.Z. et al. (2015) ‘On correlation between urban development, land subsidence and flooding phenomena in Jakarta’, Proceedings of IAHS. Changes in Flood Risk and Perception in Catchments and Cities - IAHS Symposium HS01, 26th General Assembly of the International Union of Geodesy and Geophysics, Prague, Czech Republic, 22 June&ndash;2 July 2015, Copernicus GmbH, pp. 15–20. https://doi.org/10.5194/piahs-370-15-2015.
+
+- Cao, A. et al. (2021) ‘Future of Asian Deltaic Megacities under sea level rise and land subsidence: current adaptation pathways for Tokyo, Jakarta, Manila, and Ho Chi Minh City’, Current Opinion in Environmental Sustainability, 50, pp. 87–97. https://doi.org/10.1016/j.cosust.2021.02.010.
+
