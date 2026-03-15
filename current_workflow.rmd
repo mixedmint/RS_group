@@ -1,0 +1,163 @@
+---
+title: "Integrated Monitoring and Early Warning of Land Subsidence and Extreme Flood Risks"
+subtitle: "Ho Chi Minh City, Vietnam"
+author: "Da, HoMan, Jiajun, Ruijue, Zhihao"
+institute: "CASA"
+date: "2026/03/24"
+output:
+  xaringan::moon_reader:
+    css: custom.css
+    lib_dir: libs
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: false
+    
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-all, echo=FALSE, warning=FALSE}
+library(xaringan)
+library(xaringanExtra)
+library(knitr)
+
+xaringanExtra::use_search(show_icon = TRUE, auto_search	=FALSE)
+xaringanExtra::use_tile_view()
+xaringanExtra::use_fit_screen()
+xaringanExtra::use_clipboard()
+xaringanExtra::use_extra_styles(
+  hover_code_line = TRUE,         
+  mute_unhighlighted_code = TRUE  
+)
+xaringanExtra::use_panelset()
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#1c5253",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+class: inverse, center, middle
+
+# Problem Definition
+
+---
+
+## Background
+#### HCMC faces **the compounding hazards of land subsidence and flooding**.
+
+.pull-left[
+### Land Subsidence
+- Most populous city in Vietnam + Rapid urbanization
+
+- Massive groundwater extraction 
+
+- Compacting the soft delta soil
+
+- **One of the most fastest-sinking cities in the world**
+
+>HCMC has sunk **~1 meter** since 1990, with current rates at **2-5 cm/year** (JICA), peaking at **7-8 cm/year** in commercial hubs [(SGGP, 2025)](https://en.sggp.org.vn/reasons-behind-hcmcs-accelerated-land-subsidence-revealed-post121758.html).
+]
+
+.pull-right[
+### Flooding
+- 65% of the city is less than 1.5 m above mean sea level (Vachaud et al., 2019)
+
+- Sea level rising
+
+- Extreme monsoon rains
+
+- **One of the most vulnerable cities to flooding**, especially for SLR–induced flooding (IPCC, 2019)
+
+]
+
+---
+
+### The Vicious Cycle
+.pull-left[
+- Sinking ground + Sea-level rise = Relative Sea-Level Rise (RSLR)
+
+- Sinking terrain turns neighborhoods into permanent water sinks and breaks underground drainage pipes.
+
+- **Results:** Floods become deeper, last longer, and are geometrically harder to drain.
+
+- Solving the flood crisis requires managing both the **water** and the **sinking ground**.
+]
+
+.pull-right[
+```{r echo=FALSE, out.width='90%', fig.align='center'}
+knitr::include_graphics('images/vicious.png')
+```
+<p style="font-size: 12px; color: black; margin-top: 0px; text-align: center;">
+  Impacts of land subsidence on flooding phenomena. Source: Abidin et al., (2015)
+</p>
+]
+
+---
+
+## Problem Statement
+
+.pull-left[
+### Technical Blind Spot
+
+The current Flood Risk Management Project relies on **static elevation models**, ignoring dynamic ground sinking.
+
+ - Early warning system failure
+ - Wasted infrastructure
+
+### Institutional Silos
+
+- SCFC manages flooding (surface water).
+- DONRE manages land subsidence (groundwater).
+- **No shared dynamic platform** exists to calculate compounding risks.
+]
+
+.pull-right[
+### Socio-Economic Impact
+
+- Localized fixes (e.g., raising streets) ignore city-wide impacts (Cao et al., 2021).
+- Displacing floodwater directly into less-protected, poorer communities.
+- **Economic damage hits the poorest.**
+
+```{r echo=FALSE, out.width='65%', fig.align='center'}
+knitr::include_graphics('images/rised_road.png')
+```
+<p style="font-size: 12px; color: black; margin-top: 0px; text-align: center;">
+  Raised road covers the entrance of a house and turns it into cave. 
+  
+  Source: Cao et al., (2021)
+</p>
+]
+---
+
+class: inverse, center, middle
+
+# Project Approach
+
+---
+
+class: inverse, center, middle
+
+# Project plan, risks and value for money
+
+---
+
+# Reference
+
+- Vachaud, G. et al. (2019) ‘Flood-related risks in Ho Chi Minh City and ways of mitigation’, Journal of Hydrology, 573, pp. 1021–1027. https://doi.org/10.1016/j.jhydrol.2018.02.044.
+
+- Intergovernmental Panel on Climate Change (IPCC) (ed.) (2022) ‘Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities’, The Ocean and Cryosphere in a Changing Climate: Special Report of the Intergovernmental Panel on Climate Change. Cambridge: Cambridge University Press, pp. 321–446. https://doi.org/10.1017/9781009157964.006.
+
+- Abidin, H.Z. et al. (2015) ‘On correlation between urban development, land subsidence and flooding phenomena in Jakarta’, Proceedings of IAHS. Changes in Flood Risk and Perception in Catchments and Cities - IAHS Symposium HS01, 26th General Assembly of the International Union of Geodesy and Geophysics, Prague, Czech Republic, 22 June&ndash;2 July 2015, Copernicus GmbH, pp. 15–20. https://doi.org/10.5194/piahs-370-15-2015.
+
+- Cao, A. et al. (2021) ‘Future of Asian Deltaic Megacities under sea level rise and land subsidence: current adaptation pathways for Tokyo, Jakarta, Manila, and Ho Chi Minh City’, Current Opinion in Environmental Sustainability, 50, pp. 87–97. https://doi.org/10.1016/j.cosust.2021.02.010.
+
