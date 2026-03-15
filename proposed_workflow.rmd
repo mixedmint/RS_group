@@ -145,6 +145,71 @@ class: inverse, center, middle
 
 ---
 
+## Data Sources
+
+.pull-left[
+
+### Earth Observation Data
+
+- Sentinel-1 SAR imagery  
+- InSAR time-series analysis  
+
+###Terrain Data
+
+- Digital Elevation Model (DEM)  
+- Subsidence-adjusted elevation  
+
+]
+
+.pull-right[
+
+###Hydrological Data
+
+- Tide gauge data  
+- Historical flood records  
+
+###Data Compliance
+
+- Open-access EO datasets  
+- Local processing of sensitive data  
+- Compliance with Vietnam regulations  
+
+]
+
+---
+
+## Module 1: Dynamic Flood Risk Assessment
+
+```{r echo=FALSE, out.width='50%', fig.align='center'}
+knitr::include_graphics('images/workflow1.png')
+```
+
+---
+
+## Existing Flood Monitoring System
+
+```{r echo=FALSE, out.width='75%', fig.align='center'}
+knitr::include_graphics('images/example1.png')
+```
+
+---
+
+## Module 2: Dynamic Elevation Monitoring
+
+```{r echo=FALSE, out.width='65%', fig.align='center'}
+knitr::include_graphics('images/workflow2.png')
+```
+
+---
+
+## Existing Subsidence Monitoring System
+
+```{r echo=FALSE, out.width='80%', fig.align='center'}
+knitr::include_graphics('images/example2.png')
+```
+
+---
+
 class: inverse, center, middle
 
 # Project plan, risks and value for money
