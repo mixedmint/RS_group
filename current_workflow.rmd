@@ -51,6 +51,71 @@ class: inverse, center, middle
 # Problem Definition
 
 ---
+## Current Workflow
+
+.pull-left[
+### Flood management
+
+- Historically led by **SCFC**
+- A proposed WB project reflected the city’s dominant flood management logic
+- Focus on:
+  - rainfall monitoring
+  - river / tidal water levels
+  - drainage performance
+- Main response:
+  - early warning
+  - sluice gates / embankments
+  - drainage upgrades
+]
+
+.pull-right[
+### Subsidence monitoring
+
+- Managed by **DONRE**
+- Focus on:
+  - groundwater regulation
+  - leveling networks
+  - GPS points
+  - groundwater records
+- InSAR used mainly in research
+- Monitoring remains partly fragmented and periodic
+]
+
+<p style="font-size: 12px; color: black; margin-top: 20px;">
+Sources: World Bank (2016); Actuaries Institute (2021); Erban et al. (2014); Nguyen et al. (2015)
+</p>
+
+---
+## Key Limitations
+
+.pull-left[
+### Flood management
+
+- Strong **hydromet focus**
+- Heavy reliance on **grey infrastructure**
+- Limited integration of **subsidence dynamics**
+]
+
+.pull-right[
+### Subsidence monitoring
+
+- **Spatially sparse**
+- **Temporally limited**
+- Weak integration with flood risk management
+
+### Result
+
+- Risks are monitored separately
+- Compound flood risk is underestimated
+]
+
+<p style="font-size: 12px; color: black; margin-top: 20px;">
+Sources: Minderhoud et al. (2019); Nguyen et al. (2015); Earth.org (2021)
+</p>
+
+---
+
+---
 
 ## Background
 #### HCMC faces **the compounding hazards of land subsidence and flooding**.
@@ -105,6 +170,7 @@ knitr::include_graphics('images/vicious.png')
 ---
 
 ## Problem Statement
+
 
 .pull-left[
 ### Technical Blind Spot
