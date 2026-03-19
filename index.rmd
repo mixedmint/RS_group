@@ -86,11 +86,11 @@ class: inverse, center, middle
 .pull-left[
 - Sinking ground + Sea-level rise = Relative Sea-Level Rise (RSLR)
 
-- Sinking terrain turns neighborhoods into permanent water sinks and breaks underground drainage pipes.
+- Sinking terrain turns neighborhoods into permanent water sinks and breaks underground drainage pipes (Abidin et al., 2015).
 
 - **Results:** Floods become deeper, last longer, and are geometrically harder to drain.
 
-- Solving the flood crisis requires managing both the **water** and the **sinking ground**.
+- Solving the flood crisis requires managing both the **water** and the **sinking ground** (Navarro-Hernández et al., 2023).
 ]
 
 .pull-right[
@@ -396,27 +396,29 @@ class: inverse, center, middle
 
 # Reference
 
-- Vachaud, G. et al. (2019) ‘Flood-related risks in Ho Chi Minh City and ways of mitigation’, Journal of Hydrology, 573, pp. 1021–1027. https://doi.org/10.1016/j.jhydrol.2018.02.044.
+- Vachaud, G. et al. (2019) ‘Flood-related risks in Ho Chi Minh City and ways of mitigation’, Journal of Hydrology, 573, pp. 1021–1027. Available at: https://doi.org/10.1016/j.jhydrol.2018.02.044.
 
-- Intergovernmental Panel on Climate Change (IPCC) (ed.) (2022) ‘Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities’, The Ocean and Cryosphere in a Changing Climate: Special Report of the Intergovernmental Panel on Climate Change. Cambridge: Cambridge University Press, pp. 321–446. https://doi.org/10.1017/9781009157964.006.
+- Intergovernmental Panel on Climate Change (IPCC) (ed.) (2022) ‘Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities’, The Ocean and Cryosphere in a Changing Climate: Special Report of the Intergovernmental Panel on Climate Change. Cambridge: Cambridge University Press, pp. 321–446. Available at: https://doi.org/10.1017/9781009157964.006.
 
-- Abidin, H.Z. et al. (2015) ‘On correlation between urban development, land subsidence and flooding phenomena in Jakarta’, Proceedings of IAHS. Changes in Flood Risk and Perception in Catchments and Cities - IAHS Symposium HS01, 26th General Assembly of the International Union of Geodesy and Geophysics, Prague, Czech Republic, 22 June&ndash;2 July 2015, Copernicus GmbH, pp. 15–20. https://doi.org/10.5194/piahs-370-15-2015.
+- Navarro-Hernández, M.I. et al. (2023) ‘Analysing the Impact of Land Subsidence on the Flooding Risk: Evaluation Through InSAR and Modelling’, Water Resources Management, 37(11), pp. 4363–4383. Available at: https://doi.org/10.1007/s11269-023-03561-6.
 
-- Cao, A. et al. (2021) ‘Future of Asian Deltaic Megacities under sea level rise and land subsidence: current adaptation pathways for Tokyo, Jakarta, Manila, and Ho Chi Minh City’, Current Opinion in Environmental Sustainability, 50, pp. 87–97. https://doi.org/10.1016/j.cosust.2021.02.010.
+- Abidin, H.Z. et al. (2015) ‘On correlation between urban development, land subsidence and flooding phenomena in Jakarta’, Proceedings of IAHS. Changes in Flood Risk and Perception in Catchments and Cities - IAHS Symposium HS01, 26th General Assembly of the International Union of Geodesy and Geophysics, Prague, Czech Republic, 22 June&ndash;2 July 2015, Copernicus GmbH, pp. 15–20. Available at: https://doi.org/10.5194/piahs-370-15-2015.
+
+- Cao, A. et al. (2021) ‘Future of Asian Deltaic Megacities under sea level rise and land subsidence: current adaptation pathways for Tokyo, Jakarta, Manila, and Ho Chi Minh City’, Current Opinion in Environmental Sustainability, 50, pp. 87–97. Available at: https://doi.org/10.1016/j.cosust.2021.02.010.
 
 ---
 
 # Reference
 
-- World Bank (2016) Ho Chi Minh City Flood Risk Management Project (P149696). https://projects.worldbank.org/en/projects-operations/project-detail/P149696 (Accessed: 9 March 2026).
+- World Bank (2016) Ho Chi Minh City Flood Risk Management Project (P149696). Available at: https://projects.worldbank.org/en/projects-operations/project-detail/P149696 (Accessed: 9 March 2026).
 
 - Actuaries Institute (2021) Floods in Vietnam: Will rising waters tame the rising dragon? 
-https://www.actuaries.asn.au/research-analysis/floods-in-vietnam-will-rising-waters-tame-the-rising-dragon (Accessed: 9 March 2026).
+Available at: https://www.actuaries.asn.au/research-analysis/floods-in-vietnam-will-rising-waters-tame-the-rising-dragon (Accessed: 9 March 2026).
 
-- Erban, L., Gorelick, S.M. and Zebker, H.A. (2014) ‘Groundwater extraction, land subsidence, and sea-level rise in the Mekong Delta, Vietnam’, Environmental Research Letters, 9(8). https://iopscience.iop.org/article/10.1088/1748-9326/9/8/084010
+- Erban, L., Gorelick, S.M. and Zebker, H.A. (2014) ‘Groundwater extraction, land subsidence, and sea-level rise in the Mekong Delta, Vietnam’, Environmental Research Letters, 9(8). Available at: https://iopscience.iop.org/article/10.1088/1748-9326/9/8/084010
 
-- Nguyen, H.Q. et al. (2015) ‘Land subsidence monitoring in Ho Chi Minh City using Persistent Scatterer InSAR’, Remote Sensing, 7(7), pp. 8543–8564. https://www.mdpi.com/2072-4292/7/7/8543
+- Nguyen, H.Q. et al. (2015) ‘Land subsidence monitoring in Ho Chi Minh City using Persistent Scatterer InSAR’, Remote Sensing, 7(7), pp. 8543–8564. Available at: https://www.mdpi.com/2072-4292/7/7/8543
 
-- Minderhoud, P.S.J. et al. (2019) ‘Impacts of 25 years of groundwater extraction on subsidence in the Mekong Delta, Vietnam’, Scientific Reports, 9. https://doi.org/10.1088/1748-9326/AA7146.
+- Minderhoud, P.S.J. et al. (2019) ‘Impacts of 25 years of groundwater extraction on subsidence in the Mekong Delta, Vietnam’, Scientific Reports, 9. Available at: https://doi.org/10.1088/1748-9326/AA7146.
 
 
