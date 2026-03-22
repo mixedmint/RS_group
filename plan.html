@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Integrated Monitoring and Early Warning of Land Subsidence and Extreme Flood Risks</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Da, HoMan, Jiajun, Ruijue, Zhihao" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <script src="libs/mark.js/mark.min.js"></script>
+    <link href="libs/xaringanExtra-search/search.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-search/search.js"></script>
+    <script>window.addEventListener('load', function() { window.xeSearch = new RemarkSearch({"position":"bottom-left","caseSensitive":false,"showIcon":true,"autoSearch":false}) })</script>
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <script src="libs/xaringanExtra_fit-screen/fit-screen.js"></script>
+    <script src="libs/clipboard/clipboard.min.js"></script>
+    <link href="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.js"></script>
+    <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
+    <link href="libs/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
+    <link href="libs/panelset/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset/panelset.js"></script>
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Integrated Monitoring and Early Warning of Land Subsidence and Extreme Flood Risks
+]
+.subtitle[
+## Ho Chi Minh City, Vietnam
+]
+.author[
+### Da, HoMan, Jiajun, Ruijue, Zhihao
+]
+.institute[
+### CASA
+]
+.date[
+### 2026/03/24
+]
+
+---
+
+
+
+
+
+
+
+class: inverse, center, middle
+
+# Problem Definition
+
+---
+
+## Background
+#### HCMC faces **the compounding hazards of land subsidence and flooding**.
+
+.pull-left[
+### Land Subsidence
+- Most populous city in Vietnam + Rapid urbanization
+
+- Massive groundwater extraction 
+
+- Compacting the soft delta soil
+
+- **One of the most fastest-sinking cities in the world**
+
+&gt;HCMC has sunk **~1 meter** since 1990, with current rates at **2-5 cm/year** (JICA), peaking at **7-8 cm/year** in commercial hubs [(SGGP, 2025)](https://en.sggp.org.vn/reasons-behind-hcmcs-accelerated-land-subsidence-revealed-post121758.html).
+]
+
+.pull-right[
+### Flooding
+- 65% of the city is less than 1.5 m above mean sea level (Vachaud et al., 2019)
+
+- Sea level rising
+
+- Extreme monsoon rains
+
+- **One of the most vulnerable cities to flooding**, especially for SLR–induced flooding (IPCC, 2019)
+
+]
+
+---
+
+### The Vicious Cycle
+.pull-left[
+- Sinking ground + Sea-level rise = Relative Sea-Level Rise (RSLR)
+
+- Sinking terrain turns neighborhoods into permanent water sinks and breaks underground drainage pipes.
+
+- **Results:** Floods become deeper, last longer, and are geometrically harder to drain.
+
+- Solving the flood crisis requires managing both the **water** and the **sinking ground**.
+]
+
+.pull-right[
+&lt;img src="images/vicious.png" width="90%" style="display: block; margin: auto;" /&gt;
+&lt;p style="font-size: 12px; color: black; margin-top: 0px; text-align: center;"&gt;
+  Impacts of land subsidence on flooding phenomena. Source: Abidin et al., (2015)
+&lt;/p&gt;
+]
+
+---
+
+## Problem Statement
+
+.pull-left[
+### Technical Blind Spot
+
+The current Flood Risk Management Project relies on **static elevation models**, ignoring dynamic ground sinking.
+
+ - Early warning system failure
+ - Wasted infrastructure
+
+### Institutional Silos
+
+- SCFC manages flooding (surface water).
+- DONRE manages land subsidence (groundwater).
+- **No shared dynamic platform** exists to calculate compounding risks.
+]
+
+.pull-right[
+### Socio-Economic Impact
+
+- Localized fixes (e.g., raising streets) ignore city-wide impacts (Cao et al., 2021).
+- Displacing floodwater directly into less-protected, poorer communities.
+- **Economic damage hits the poorest.**
+
+&lt;img src="images/rised_road.png" width="65%" style="display: block; margin: auto;" /&gt;
+&lt;p style="font-size: 12px; color: black; margin-top: 0px; text-align: center;"&gt;
+  Raised road covers the entrance of a house and turns it into cave. 
+  
+  Source: Cao et al., (2021)
+&lt;/p&gt;
+]
+---
+
+class: inverse, center, middle
+
+# Project Approach
+
+---
+
+class: inverse, center, middle
+
+# Project plan, risks and value for money
+
+---
+class: middle, center
+# What this proposal adds
+
+## Strengthening existing flood operations with a subsidence-aware decision layer
+
+&lt;br&gt;
+
+**The key gap is not flood management itself, but the lack of subsidence-integrated decision-making.**
+
+---
+
+# What this proposal adds
+
+.pull-left[
+### Current situation
+- Existing flood management systems already exist
+- Digital flood operations are developing
+- But land subsidence is not yet fully integrated into operational decisions
+]
+
+.pull-right[
+### Our contribution
+- We do **not** replace current systems
+- We add a **subsidence-aware decision layer**
+- This improves prioritisation, targeting, and long-term use
+]
+
+&lt;br&gt;
+
+&gt; **Message:** We strengthen the current system rather than starting from zero.
+
+---
+
+# From city-wide screening to pilot implementation
+
+&lt;div style="font-size: 1.05em; line-height: 1.8;"&gt;
+
+**Step 1 — Screen the whole city**  
+Identify compound-risk hotspots across Ho Chi Minh City
+
+**Step 2 — Select the priority district**  
+Choose the pilot based on risk, vulnerability, and feasibility
+
+**Step 3 — Test the workflow**  
+Run the dashboard, validation, and SOP in the selected district
+
+**Step 4 — Scale the model**  
+Extend the tested workflow to other high-risk districts
+
+&lt;/div&gt;
+
+&lt;br&gt;
+
+&gt; **Message:** The pilot is selected through evidence, not assumed in advance.
+
+---
+
+# Who operates the system?
+
+| Phase | Lead actor | Main role |
+|---|---|---|
+| City-wide screening | DONRE technical hub | EO processing and hotspot screening |
+| Flood-risk review | SCFC | operational interpretation and prioritisation |
+| Pilot delivery | Selected district + SCFC + technical hub | validation, dashboard use, SOP testing |
+| Long-term use | Permanent HCMC unit | routine updates, maintenance, and scale-up |
+
+&lt;br&gt;
+
+&gt; **Message:** City-wide prioritisation must be led at city level, not district level.
+
+---
+
+# Minimising external dependence
+
+.pull-left[
+### External role
+- initial technical advice
+- training support
+- limited quality assurance
+]
+
+.pull-right[
+### HCMC role
+- routine processing
+- data governance
+- operational decisions
+- long-term maintenance
+]
+
+&lt;br&gt;
+
+&lt;div style="font-size: 1.05em;"&gt;
+By **Year 3**, the workflow should run without routine external support.
+&lt;/div&gt;
+
+&lt;br&gt;
+
+&gt; **Message:** The goal is internal capability, not outsourced analysis.
+
+---
+
+# From dashboard to action
+
+.pull-left[
+### Short-term response
+- update hotspots regularly
+- trigger targeted alerts
+- support rapid local response
+]
+
+.pull-right[
+### Long-term planning
+- revise maintenance priorities
+- inform district budgeting
+- guide infrastructure investment
+]
+
+&lt;br&gt;
+
+&lt;div style="font-size: 1.05em;"&gt;
+The dashboard supports both **short-term action** and **long-term planning**.
+&lt;/div&gt;
+
+&lt;br&gt;
+
+&gt; **Message:** The dashboard matters because it changes decisions.
+
+---
+
+# 3-year implementation roadmap
+
+.pull-left[
+### Year 1 — Integration
+- city-wide screening
+- data-sharing setup
+- technical hub formation
+
+### Year 2 — Pilot
+- district-level testing
+- field validation
+- SOP development
+]
+
+.pull-right[
+### Year 3 — Institutionalisation
+- embed into BAU operations
+- establish permanent staffing
+- prepare city-wide scale-up
+
+### Key deliverables
+- **M6:** data-sharing protocol  
+- **M12:** hotspot map  
+- **M18:** pilot dashboard  
+- **M36:** handover package
+]
+
+&lt;br&gt;
+
+&gt; **Message:** The project is structured to leave lasting operational capacity behind.
+
+---
+
+# Budget, value for money, and risk
+
+.pull-left[
+### Budget focus
+- technical hub and training
+- processing / hosting infrastructure
+- field validation and pilot support
+- contingency and governance adjustment
+]
+
+.pull-right[
+### Value for money
+- strengthens existing flood operations
+- improves targeting of limited public spending
+- reduces dependence on consultants
+- leaves lasting in-house capacity
+]
+
+&lt;br&gt;
+
+&lt;div style="font-size: 1.0em;"&gt;
+**Key risks:** institutional silos, data governance constraints, staff turnover, technical uncertainty
+&lt;/div&gt;
+
+&lt;br&gt;
+
+&gt; **Message:** This budget improves how the city targets its response.
+
+---
+
+class: middle, center
+# Conclusion
+
+### Existing systems are developing, but subsidence is still not fully integrated.
+
+### Our proposal strengthens current operations rather than replacing them.
+
+&lt;br&gt;
+
+**We make flood management more targeted, more operational, and more sustainable.**
+
+---
+
+# Reference
+
+- Vachaud, G. et al. (2019) ‘Flood-related risks in Ho Chi Minh City and ways of mitigation’, Journal of Hydrology, 573, pp. 1021–1027. https://doi.org/10.1016/j.jhydrol.2018.02.044.
+
+- Intergovernmental Panel on Climate Change (IPCC) (ed.) (2022) ‘Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities’, The Ocean and Cryosphere in a Changing Climate: Special Report of the Intergovernmental Panel on Climate Change. Cambridge: Cambridge University Press, pp. 321–446. https://doi.org/10.1017/9781009157964.006.
+
+- Abidin, H.Z. et al. (2015) ‘On correlation between urban development, land subsidence and flooding phenomena in Jakarta’, Proceedings of IAHS. Changes in Flood Risk and Perception in Catchments and Cities - IAHS Symposium HS01, 26th General Assembly of the International Union of Geodesy and Geophysics, Prague, Czech Republic, 22 June&amp;ndash;2 July 2015, Copernicus GmbH, pp. 15–20. https://doi.org/10.5194/piahs-370-15-2015.
+
+- Cao, A. et al. (2021) ‘Future of Asian Deltaic Megacities under sea level rise and land subsidence: current adaptation pathways for Tokyo, Jakarta, Manila, and Ho Chi Minh City’, Current Opinion in Environmental Sustainability, 50, pp. 87–97. https://doi.org/10.1016/j.cosust.2021.02.010.
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+  "slideNumberFormat": "%current%",
+  "highlightStyle": "github",
+  "highlightLines": true,
+  "ratio": "16:9",
+  "countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
