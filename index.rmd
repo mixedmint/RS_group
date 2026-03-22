@@ -362,7 +362,6 @@ class: middle, center
  
 # From city-wide screening to pilot implementation
  
-<div style="font-size: 1.05em; line-height: 1.8;">
  
 **Step 1 — Screen the whole city**  
 Identify compound-risk hotspots across Ho Chi Minh City
@@ -375,13 +374,11 @@ Run the dashboard, validation, and SOP in the selected district
  
 **Step 4 — Scale the model**  
 Extend the tested workflow to other high-risk districts
- 
-</div>
- 
-<br>
- 
+
+<br> 
 > **Message:** The pilot is selected through evidence, not assumed in advance.
- 
+<br>
+
 ---
  
 # Who operates the system?
@@ -420,7 +417,6 @@ Extend the tested workflow to other high-risk districts
  
 <div style="font-size: 1.05em;">
 By **Year 3**, the workflow should run without routine external support.
-</div>
  
 <br>
  
@@ -445,10 +441,8 @@ By **Year 3**, the workflow should run without routine external support.
 ]
  
 <br>
- 
-<div style="font-size: 1.05em;">
+
 The dashboard supports both **short-term action** and **long-term planning**.
-</div>
  
 <br>
  
@@ -509,17 +503,15 @@ The dashboard supports both **short-term action** and **long-term planning**.
  
 <br>
  
-<div style="font-size: 1.0em;">
 **Key risks:** institutional silos, data governance constraints, staff turnover, technical uncertainty
-</div>
  
 <br>
  
 > **Message:** This budget improves how the city targets its response.
  
 ---
- 
 class: middle, center
+
 # Conclusion
  
 ### Existing systems are developing, but subsidence is still not fully integrated.
