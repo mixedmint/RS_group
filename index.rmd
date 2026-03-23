@@ -299,7 +299,7 @@ knitr::include_graphics('images/workflow1.png')
 
 ---
 
-## Existing Flood Monitoring System
+## Reference: Global Flood Monitoring Platforms
 
 ```{r echo=FALSE, out.width='75%', fig.align='center'}
 knitr::include_graphics('images/example1.png')
@@ -315,7 +315,7 @@ knitr::include_graphics('images/workflow2.png')
 
 ---
 
-## Existing Subsidence Monitoring System
+## Reference: Dynamic Subsidence Dashboard
 
 ```{r echo=FALSE, out.width='80%', fig.align='center'}
 knitr::include_graphics('images/example2.png')
