@@ -151,68 +151,193 @@ class: inverse, center, middle
 
 ---
 
-## Implementation Roadmap: MECE 3-Year Plan
-
-.panelset[
-### **Year 1: Macro & System**
-
-- **InSAR Screening**: City-wide hotspot identification via PS-InSAR.
-- **Data Integration**: Harmonizing satellite data with **ground piezometers**.
-- **Social Equity**: Establishing transparency protocols for non-priority zones.
-
-### **Year 2: Local & Human**
-
-- **Technical Hub**: Launching the Binh Tan Pilot (Strategic Sandbox).
-- **10 Sovereign Operators**: Recruitment and intensive "Data Sovereignty" training.
-- **Institutional Bridge**: Formalizing the DONRE-SCFC API linkage.
-
-### **Year 3: Scaling & Exit**
-
-- **ROI Validation**: Documenting the **1,300% Payback** for future funding.
-- **Permanent Tenure**: Integrating the 10-person unit into civil service.
-- **Blueprint Export**: Standardizing the HCMC model for Mekong Delta.
-]
-
----
-## Value for Money: Multi-dimensional Impact
-
-| Category | Investment (£) | Strategic Return & Payback |
-| :--- | :--- | :--- |
-| **Digital Core** | £175,000 | **Precision**: Merging InSAR + Ground Sensors for 99% accuracy. |
-| **Technical Hub** | £245,000 | **Human Asset**: 10 experts secured with **Post-project tenure**. |
-| **Social & Validation** | £80,000 | **Equity**: Risk-communication & relief funds for non-hotspots. |
-| **Total** | **£500,000** | **ROI: £6.5M savings + Social Stability.** |
-
-<br>
-<div style="background-color: #f0f4f4; border-left: 5px solid #1c5253; padding: 15px;">
-<b>MECE Justification:</b> This budget covers not only "Fixing Pipes" (Economic) but also "Building Knowledge" (Human) and "Ensuring Fairness" (Social).
-</div>
----
-## Strategic Limitations & Risk Mitigation
+# What this proposal adds
 
 .pull-left[
-#### **Technical & Data**
-- **Lag Time**: InSAR shows past movement; ground sensors show present.
-- **Mitigation**: **Hybrid Monitoring** (Satellite + Ground-truthing).
-
-#### **Legal & Political**
-- **Data Law 2025**: Restrictions on foreign analytics.
-- **Mitigation**: **Localized Hub** where HCMC officials hold the "Data Keys."
+### Current situation
+- Existing flood management systems already exist
+- Digital flood operations are developing
+- But land subsidence is not yet fully integrated into operational decisions
 ]
 
 .pull-right[
-#### **Social & Ethical**
-- **Priority Bias**: Potential neglect of lower-risk districts.
-- **Mitigation**: **Transparency Dashboard** to explain resource allocation.
+### Our contribution
+- We do **not** replace current systems
+- We add a **subsidence-aware decision layer**
+- This improves prioritisation, targeting, and long-term use
+]
 
-#### **Institutional**
-- **Staff Turnover**: Risk of experts leaving for the private sector.
-- **Mitigation**: **Internal Tenure Track** within the HCMC government.
+<br>
+
+> **Message:** We strengthen the current system rather than starting from zero.
+
+---
+
+# A self-sustaining operational cycle
+
+<div style="text-align: center;">
+<img src="images/circulation.jpeg" style="max-width: 88%; max-height: 60vh; width: auto; height: auto;">
+</div>
+
+> **Message:** The pilot is selected through evidence, not assumed in advance.
+
+---
+
+# Who operates the system?
+
+| Phase | Lead actor | Main role |
+|---|---|---|
+| City-wide screening | DONRE technical hub | EO processing and hotspot screening |
+| Flood-risk review | SCFC | operational interpretation and prioritisation |
+| Pilot delivery | Selected district + SCFC + technical hub | validation, dashboard use, SOP testing |
+| Long-term use | Permanent HCMC unit | routine updates, maintenance, and scale-up |
+
+<br>
+
+> **Message:** City-wide prioritisation must be led at city level, not district level.
+
+---
+
+# From external support to internal operation
+
+.pull-left[
+### External role
+- initial technical advice
+- training support
+- limited quality assurance
+]
+
+.pull-right[
+### HCMC role
+- routine processing
+- data governance
+- operational decisions
+- long-term maintenance
+]
+
+<br>
+
+<div style="font-size: 1.05em;">
+By <strong>Year 3</strong>, the workflow should run without routine external support.
+</div>
+
+<br>
+
+> **Message:** The goal is internal capability, not outsourced analysis.
+
+---
+
+# How the dashboard changes decisions
+
+.panelset[
+.panel[.panel-name[Short-term response]
+
+### Short-term response
+- update hotspot maps on a routine basis
+- trigger targeted alerts when high-risk hotspots overlap with extreme rainfall or tide
+- support rapid local response and field verification
+
+]
+
+.panel[.panel-name[Long-term planning]
+
+### Long-term planning
+- revise maintenance priorities
+- inform district budgeting
+- guide infrastructure investment
+- support more defensible public spending
+
+]
+
+.panel[.panel-name[Why it matters]
+
+### Why it matters
+- the dashboard links monitoring to operational decisions
+- it supports both emergency response and long-term planning
+- it helps the city act earlier and target resources better
+
+]
+]
+
+<br>
+
+> **Message:** The dashboard matters because it changes decisions.
+
+---
+
+# 3-year implementation roadmap
+
+<div style="text-align: center;">
+<img src="images/roadmap_3yr.jpeg" style="max-width: 88%; max-height: 60vh; width: auto; height: auto;">
+</div>
+
+---
+
+# Budget, value for money, and risk
+
+.panelset[
+.panel[.panel-name[Budget]
+
+### Budget
+
+| Category | Budget | Strategic Value |
+|---|---:|---|
+| **Stage 1: Screening & System Setup** | **£175,000 (35%)** | Builds the data and processing foundation for city-wide hotspot identification. |
+| **Stage 2: Technical Unit & Pilot Operations** | **£275,000 (55%)** | Funds training, pilot delivery, SOP development, and long-term in-house capability. |
+| **Validation, Adaptation & Contingency** | **£50,000 (10%)** | Supports ground-truthing, workflow adjustment, and implementation flexibility. |
+| **Total** | **£500,000** | **Strengthens existing flood operations and leaves lasting city capacity.** |
+
+]
+
+.panel[.panel-name[Key Risks]
+
+### Key Risks
+- <strong>Institutional silo</strong>  
+  SCFC and DONRE may not coordinate effectively  
+  → shared protocol, joint review points, clear ownership
+
+- <strong>Data governance risk</strong>  
+  data handling and hosting may create administrative delays  
+  → local hosting, limited external dependence, phased rollout
+
+- <strong>Staff turnover</strong>  
+  trained staff may leave after the pilot  
+  → Year 3 permanent unit, SOP package, retention pathway
+
+- <strong>Technical uncertainty</strong>  
+  subsidence outputs may need refinement in practice  
+  → field validation, pilot testing, dashboard adjustment
+
+]
+
+.panel[.panel-name[Value for Money]
+
+### Why this is worth funding
+
+- strengthens <strong>existing</strong> flood operations rather than duplicating them
+
+- improves how limited public spending is targeted
+
+- reduces long-term dependence on external consultants
+
+- leaves behind a trained in-house unit, shared workflow, and reusable dashboard
+
+]
 ]
 
 ---
 
-> **Strategic Intent:** Minimizing "Fiscal Leakage" by validating targets in Phase I before heavy investment in Phase II.
+class: middle, center
+# Conclusion
+
+### Existing systems are developing, but subsidence is still not fully integrated.
+
+### Our proposal strengthens current operations rather than replacing them.
+
+<br>
+
+**We make flood management more targeted, more operational, and more sustainable.**
+
 ---
 
 # Reference
