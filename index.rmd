@@ -364,7 +364,6 @@ class: inverse, center, middle
 #Project plan, risks and value for money
  
 ---
-<<<<<<< HEAD
 
 # What this proposal adds
 
@@ -552,70 +551,6 @@ class: middle, center
 <br>
 
 **We make flood management more targeted, more operational, and more sustainable.**
-
-=======
-
-## Implementation Roadmap: MECE 3-Year Plan
-
-.panelset[
-### **Year 1: Macro & System**
-
-- **InSAR Screening**: City-wide hotspot identification via PS-InSAR.
-- **Data Integration**: Harmonizing satellite data with **ground piezometers**.
-- **Social Equity**: Establishing transparency protocols for non-priority zones.
-
-### **Year 2: Local & Human**
-
-- **Technical Hub**: Launching the Binh Tan Pilot (Strategic Sandbox).
-- **10 Sovereign Operators**: Recruitment and intensive "Data Sovereignty" training.
-- **Institutional Bridge**: Formalizing the DONRE-SCFC API linkage.
-
-### **Year 3: Scaling & Exit**
-
-- **ROI Validation**: Documenting the **1,300% Payback** for future funding.
-- **Permanent Tenure**: Integrating the 10-person unit into civil service.
-- **Blueprint Export**: Standardizing the HCMC model for Mekong Delta.
-]
-
----
-## Value for Money: Multi-dimensional Impact
-
-| Category | Investment (£) | Strategic Return & Payback |
-| :--- | :--- | :--- |
-| **Digital Core** | £175,000 | **Precision**: Merging InSAR + Ground Sensors for 99% accuracy. |
-| **Technical Hub** | £245,000 | **Human Asset**: 10 experts secured with **Post-project tenure**. |
-| **Social & Validation** | £80,000 | **Equity**: Risk-communication & relief funds for non-hotspots. |
-| **Total** | **£500,000** | **ROI: £6.5M savings + Social Stability.** |
-
-<br>
-<div style="background-color: #f0f4f4; border-left: 5px solid #1c5253; padding: 15px;">
-<b>MECE Justification:</b> This budget covers not only "Fixing Pipes" (Economic) but also "Building Knowledge" (Human) and "Ensuring Fairness" (Social).
-</div>
->>>>>>> 170ef84051e5dc46a00818c8469b768c626628fa
----
-## Strategic Limitations & Risk Mitigation
-
-.pull-left[
-#### **Technical & Data**
-- **Lag Time**: InSAR shows past movement; ground sensors show present.
-- **Mitigation**: **Hybrid Monitoring** (Satellite + Ground-truthing).
-
-#### **Legal & Political**
-- **Data Law 2025**: Restrictions on foreign analytics.
-- **Mitigation**: **Localized Hub** where HCMC officials hold the "Data Keys."
-]
-
-.pull-right[
-#### **Social & Ethical**
-- **Priority Bias**: Potential neglect of lower-risk districts.
-- **Mitigation**: **Transparency Dashboard** to explain resource allocation.
-
-#### **Institutional**
-- **Staff Turnover**: Risk of experts leaving for the private sector.
-- **Mitigation**: **Internal Tenure Track** within the HCMC government.
-]
-
-> **Strategic Intent:** Minimizing "Fiscal Leakage" by validating targets in Phase I before heavy investment in Phase II.
 
 ---
 # Reference
