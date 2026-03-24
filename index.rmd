@@ -141,50 +141,87 @@ knitr::include_graphics('images/rised_road.png')
 
 ## Project Objective
 
-### Key Objectives
-The project monitors areas in Ho Chi Minh City at risk from both **land subsidence** and **severe flooding**. 
-It integrates satellite data streams for subsidence and flood monitoring into a **unified dashboard** for city disaster management.
+.pull-left[
+### The Problem
+- **Land Subsidence** (sinking ground)
+- **Severe Flooding** (rising water)
+- **Compounding risk** in vulnerable areas
+]
 
-### Strategic Resource Allocation
-Guide flood protection investments and mitigation efforts to the **most vulnerable coastal and riverine areas** along the Saigon River.
+.pull-right[
+### Our Response
+- Create a **unified dashboard**
+- Provide **actionable tools** for decision-makers
+- **Shift to proactive prevention**
+- Guide investments to most vulnerable spots along the Saigon River
+]
 
-**Shift from reactive repairs → proactive prevention**
-
-### Local Capacity Development
-Train city engineers to operate the system **independently**, reducing reliance on external consultants.
-**Pilot**: Self-sustaining technical unit in **Binh Tan District**
+**The Rollout Plan:**
+1. **City-Wide Screening:** A broad look at the whole city to find the "hotspots."
+2. **Priority Pilot:** Focused implementation in the districts that need our help the most.
 ---
 
-## Compliance with development agendas
-### Sendai Framework Compliance
+# Global Alignment
 
-**Investing in Resilience**  
-- Shifts from reactive reconstruction to **pre-emptive maintenance**  
-- EO data guides infrastructure investments  
-- Enables **real-time crisis decisions** for engineers  
+## Sendai Framework & SDG 11.5
 
-### SDG 11.5 Alignment
+.pull-left[
+### Sendai Framework
+- Move from **reconstruction** to **pre-emptive maintenance**
+- Use **Earth Observation (EO)** data for real-time decisions
+- **Save lives** through proactive planning
 
-**"Reduce disaster adverse effects"**  
-- **Decreases** deaths, affected people, economic losses  
-- **Protects** vulnerable populations (Binh Tan District)  
-- Targets **floods + land subsidence** threats  
+<img src="images/SF.webp" style="width: 200px; height: 200px " />
+]
+
+.pull-right[
+### SDG 11.5
+- Reduce human and economic costs of disasters
+- Target both floods and sinking land
+- Protect livelihoods of at-risk populations
+
+<img src="images/SDG.png" style="width: 150px; height: 150px" />
+]
 
 ---
+# Benefits of Resolving Subsidence & Flooding
 
-## Benefits of Resolving Subsidence & Flooding 
+.pull-left[
+**Economic Benefits**
 
-### Economic
-- **High ROI:** Prevention investments deliver **2–10× returns**.  
-- **Cost-Effective:** **Early action** is up to **5× cheaper** than post-disaster recovery.
+| **Approach** | **Efficiency** |
+|--------------|-------------------|
+| Post-Disaster Recovery | **High Cost** ❌ |
+| Pre-emptive Maintenance | **5× Cheaper** ✅ |
+| Prevention Investment | **2–10× Returns** ✅ |
+]
 
-### Social
-- **Protects the Vulnerable:** **EO early warning** can cut impacts by **30–50%**.  
-- **Builds Resilience:** **Risk maps** empower local planning in areas like **Binh Tan**.
+--
 
-### Capacity & Sustainability
-- **Local Empowerment:** **Sendai-aligned EO training** reduces reliance on foreign experts.  
-- **Self-Reliant Monitoring:** **InSAR skills** enable continuous, **low-cost tracking** of land change.
+.pull-right[
+**Social Benefits**
+
+- **EO early warning** cuts impacts by **30–50%**
+- **Risk maps** enable local planning
+- **Binh Tan district** pilot case study
+- Protects livelihoods of vulnerable populations
+]
+
+--
+
+**Sustainability Benefits**
+
+.pull-left[
+- **Sendai-aligned EO training**
+- Reduces reliance on foreign experts
+]
+
+.pull-right[
+- **InSAR skills** for monitoring
+- **Low-cost land tracking**
+- Data-driven decision-making
+]
+
 
 ---
 class: inverse, center, middle
@@ -327,6 +364,7 @@ class: inverse, center, middle
 #Project plan, risks and value for money
  
 ---
+<<<<<<< HEAD
 
 # What this proposal adds
 
@@ -515,8 +553,71 @@ class: middle, center
 
 **We make flood management more targeted, more operational, and more sustainable.**
 
----
+=======
 
+## Implementation Roadmap: MECE 3-Year Plan
+
+.panelset[
+### **Year 1: Macro & System**
+
+- **InSAR Screening**: City-wide hotspot identification via PS-InSAR.
+- **Data Integration**: Harmonizing satellite data with **ground piezometers**.
+- **Social Equity**: Establishing transparency protocols for non-priority zones.
+
+### **Year 2: Local & Human**
+
+- **Technical Hub**: Launching the Binh Tan Pilot (Strategic Sandbox).
+- **10 Sovereign Operators**: Recruitment and intensive "Data Sovereignty" training.
+- **Institutional Bridge**: Formalizing the DONRE-SCFC API linkage.
+
+### **Year 3: Scaling & Exit**
+
+- **ROI Validation**: Documenting the **1,300% Payback** for future funding.
+- **Permanent Tenure**: Integrating the 10-person unit into civil service.
+- **Blueprint Export**: Standardizing the HCMC model for Mekong Delta.
+]
+
+---
+## Value for Money: Multi-dimensional Impact
+
+| Category | Investment (£) | Strategic Return & Payback |
+| :--- | :--- | :--- |
+| **Digital Core** | £175,000 | **Precision**: Merging InSAR + Ground Sensors for 99% accuracy. |
+| **Technical Hub** | £245,000 | **Human Asset**: 10 experts secured with **Post-project tenure**. |
+| **Social & Validation** | £80,000 | **Equity**: Risk-communication & relief funds for non-hotspots. |
+| **Total** | **£500,000** | **ROI: £6.5M savings + Social Stability.** |
+
+<br>
+<div style="background-color: #f0f4f4; border-left: 5px solid #1c5253; padding: 15px;">
+<b>MECE Justification:</b> This budget covers not only "Fixing Pipes" (Economic) but also "Building Knowledge" (Human) and "Ensuring Fairness" (Social).
+</div>
+>>>>>>> 170ef84051e5dc46a00818c8469b768c626628fa
+---
+## Strategic Limitations & Risk Mitigation
+
+.pull-left[
+#### **Technical & Data**
+- **Lag Time**: InSAR shows past movement; ground sensors show present.
+- **Mitigation**: **Hybrid Monitoring** (Satellite + Ground-truthing).
+
+#### **Legal & Political**
+- **Data Law 2025**: Restrictions on foreign analytics.
+- **Mitigation**: **Localized Hub** where HCMC officials hold the "Data Keys."
+]
+
+.pull-right[
+#### **Social & Ethical**
+- **Priority Bias**: Potential neglect of lower-risk districts.
+- **Mitigation**: **Transparency Dashboard** to explain resource allocation.
+
+#### **Institutional**
+- **Staff Turnover**: Risk of experts leaving for the private sector.
+- **Mitigation**: **Internal Tenure Track** within the HCMC government.
+]
+
+> **Strategic Intent:** Minimizing "Fiscal Leakage" by validating targets in Phase I before heavy investment in Phase II.
+
+---
 # Reference
 
 - Vachaud, G. et al. (2019) ‘Flood-related risks in Ho Chi Minh City and ways of mitigation’, Journal of Hydrology, 573, pp. 1021–1027. Available at: https://doi.org/10.1016/j.jhydrol.2018.02.044.
@@ -543,5 +644,6 @@ Available at: https://www.actuaries.asn.au/research-analysis/floods-in-vietnam-w
 - Nguyen, H.Q. et al. (2015) ‘Land subsidence monitoring in Ho Chi Minh City using Persistent Scatterer InSAR’, Remote Sensing, 7(7), pp. 8543–8564. Available at: https://www.mdpi.com/2072-4292/7/7/8543
 
 - Minderhoud, P.S.J. et al. (2019) ‘Impacts of 25 years of groundwater extraction on subsidence in the Mekong Delta, Vietnam’, Scientific Reports, 9. Available at: https://doi.org/10.1088/1748-9326/AA7146.
+
 
 
